@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+.row {
+  display: flex;
+}
+.col-i {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  padding: 20px 60px 20px 30px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 0.3px solid rgb(71, 70, 70);
+}
+
+.icon img {
+  width: 120px;
+  object-fit: cover;
+}
+.x {
+  margin-top: 50px;
+  letter-spacing: 2.4px;
+}
+i span {
+  font-weight: 700 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+i::before {
+  font-size: larger;
+}
+/* .................... */
+.profile-pic {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.profile-pic img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-pic span {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ................................COLUMN 2.............
+............................................................... */
+
+.col-ii {
+  margin-left: 250px;
+  padding: 40px 20px 50px 60px;
+  width: 60%;
+  overflow: hidden;
+}
+.story {
+  display: flex;
+  gap: 10px;
+}
+.storyy {
+  border: 3px solid red;
+  border-radius: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  color: white;
+  font-size: 50px;
+  width: 80px;
+  height: 80px;
+}
+.addstory {
+  border: 3px solid rgb(104, 100, 100);
+}
+.story img {
+  height: 65px;
+  width: 65px;
+  aspect-ratio: 1/1;
+  border-radius: 50% 50%;
+  object-fit: cover;
+}
+
+/* ...........posts ......................................*/
+.Section_posts {
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+
+.posts {
+  max-width: 75%;
+  margin-inline: auto;
+  margin-top: 70px;
+}
+.post--top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post--top__profile {
+  border-radius: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post--top__profile img {
+  height: 40px;
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 50% 50%;
+  object-fit: cover;
+}
+.post--top__content {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.post--top__username i {
+  font-size: 15px;
+}
+
+.post--top__username {
+  padding-left: 15px;
+}
+.post--top {
+  padding-inline: 8px;
+}
+.dot {
+  font-size: 20px;
+}
+.post--top__content span {
+  padding-inline: 3px;
+}
+.post--top_more {
+  color: white;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* ...........image */
+
+.post-img {
+  height: 600px;
+  margin-top: 10px;
+  background-color: aqua;
+  overflow: hidden;
+}
+.post-img img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.like-share {
+  margin-top: 10px;
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+}
+.likes {
+  display: flex;
+  font-size: larger;
+  gap: 25px;
+}
+.bookmarsk {
+  font-size: larger;
+}
+
+/* ...................col-iiii.......... */
+.col-iii {
+  width: 30%;
+  padding-inline: 50px;
+  /* background-color: antiquewhite; */
+}
+
+.user-profile_details {
+  display: flex;
+  margin-top: 20px;
+  padding: 40px 0px;
+  justify-content: space-between;
+}
+.user-profile_details-first {
+  display: flex;
+}
+.image-box {
+  border-radius: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+.image-box img {
+  height: 50px;
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50% 50%;
+  object-fit: cover;
+}
+.pnpb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.pb {
+  color: rgb(143, 141, 139);
+}
+.ps {
+  display: flex;
+  align-items: center;
+}
+.ps span {
+  color: rgb(85, 85, 211);
+}
+.suggestion {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 10px;
+}
+.suggested_profiles-box {
+  display: flex;
+  margin-top: 5px;
+  padding: 10px 0px;
+  justify-content: space-between;
+}
+.suggested_profiles--first {
+  display: flex;
+}
+
+/*...................................... foot..........  */
+.container-foot {
+  margin-top: 50px;
+}
+.col-foot a {
+  text-decoration: none;
+  color: rgb(192, 182, 182);
+  padding: 10px;
+  font-size: 14px;
+}
+.col-foot {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  width: 100%;
+}
+.col-foot1 {
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.box img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.section-foot {
+  margin-left: 250px;
+}
+.co-foot a,
+.co-foot span {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 16px;
+  width: 100%;
+  font-weight: 400;
+  color: rgb(120, 123, 126);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+    
+}
+.siggested-foot{
+    margin-top: 10px;
+}
